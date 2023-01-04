@@ -1,4 +1,4 @@
-email = input('Please enter the email address:').strip()
+email = input('Please enter the email address:').strip() # takes an input from the user and divide it
 
 username  = email[:email.index("@")] # User name anything before @
 
